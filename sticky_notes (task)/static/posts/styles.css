@@ -1,0 +1,72 @@
+/* posts/static/posts/styles.css */
+body {
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    inline-size: min-content;
+    box-shadow: 0 0 7px rgb(0, 0, 0);
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+li {
+    margin: 10px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px;
+    background-color: yellow;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.title_size {
+    font-size: 40px;
+    word-wrap: break-word;
+}
+.add-note {
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.add-note:hover {
+    background: rgba(0, 0, 0, 0.2);
+}

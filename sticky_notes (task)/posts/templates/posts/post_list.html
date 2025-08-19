@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}
+    Sticky note board - {{ page_title }}
+{% endblock %}
+{% block content %}
+    <h2>
+        {{ page_title }}
+    </h2>
+    <ul>
+        <a href="{% url 'post_create' %}" class="add-note" type="button">
+            Click here to add a new sticky note
+        </a>
+        {% for post in posts %}
+            <li>
+                <a href="{% url 'post_detail' pk=post.pk %}" class="title_size">
+                    {{ post.title }}
+                </a>
+                <p>
+                    {{ post.content }}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
