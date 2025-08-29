@@ -8,9 +8,9 @@ You can also remove them if they are done.
 
 INSTALLED MODELS:
 
-pip install Django
-pip install black
-pip install flake8
+pip install Django,
+pip install black,
+pip install flake8,
 Those are the only models I installed for this project.
 If there is other it must be local installed on my system.
 
