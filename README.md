@@ -1,10 +1,38 @@
-Please run venv to first
-Read the requirements.txt file to see what models was used.
-
+WHAT THIS PROJECT DO:
 Sticky_notes
 
 You can add sticky notes to the screen for you to do.
 You can edit them if it is done or even if you want to give them for someone else.
 You can also remove them if they are done.
 
-It is a fun little app that helps you keep track of what still need to be done.
+
+INSTALLED MODELS:
+
+pip install Django
+pip install black
+pip install flake8
+Those are the only models I installed for this project.
+If there is other it must be local installed on my system.
+
+
+SETUP VIRTUAL ENVIROMENT:
+
+To run the virtual environment type: .venv\Scripts\activate
+to stop type: deactivate
+Now you are in the virtual environment now we need to go in the task
+type: cd post
+you should see the following in your console
+.....\sticky_notes\
+you can run dir to make sure you see the manage.py file.
+
+
+DATABASE AND INFO:
+
+I am running normal Django database so if by any change there are changes made to db.
+Please make sure you are in the folder that have the manage.py file
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+Load website run: http://localhost:8000/
+That is what i run to view the website.
